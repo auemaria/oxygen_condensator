@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.theme.GreetingActivity">
+
+    <View
+        android:id="@+id/ph_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="411dp"
+        android:background="@drawable/ph_welcome_1">
+
+        <!--        <ImageView-->
+        <!--            android:layout_width="wrap_content"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentStart="true"-->
+        <!--            android:layout_alignParentEnd="true"-->
+        <!--            android:layout_gravity="center"-->
+        <!--            android:layout_marginStart="127dp"-->
+        <!--            android:layout_marginTop="57dp"-->
+        <!--            android:layout_marginEnd="127dp"-->
+        <!--            android:src="@drawable/ic_welcome_logo" />-->
+    </View>
+
+
+    <TextView
+        android:id="@+id/text_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="@string/welcome_text_1"
+        android:textColor="@color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/text_desc_welcome"
+        android:layout_width="312dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="17dp"
+        android:text="@string/welcome_desc_1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/caroisel_welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="61dp"
+        android:src="@drawable/welcome_carousel_1" />
+
+    <Button
+        android:id="@+id/button_welcome"
+        android:layout_width="250dp"
+        android:layout_height="81dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="45dp"
+        android:contentDescription="d"
+        android:textAlignment="center"
+        android:text="@string/welcome_button"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:backgroundTint="#3576A7"
+        android:background="@drawable/rounded">
+    </Button>
+
+
+
+</LinearLayout>

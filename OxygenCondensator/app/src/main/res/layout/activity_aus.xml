@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#0085af"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="AusActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/inter_bold"
+        android:text="BreathIn"
+        android:textColor="@color/white"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/inter_bold"
+        android:textColor="@color/white"
+        android:text="Авторизация"
+        android:textSize="20sp"  />
+
+    <EditText
+        android:id="@+id/login_aus"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="text"
+        android:layout_marginTop="20px"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:hint="Введите логин:" />
+
+    <EditText
+        android:id="@+id/pass_aus"
+        android:layout_width="220dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_marginTop="20px"
+        android:layout_gravity="center"
+        android:textColor="@color/white"
+        android:hint="Введите пароль:" />
+
+    <Button
+        android:id="@+id/button_aus"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Вход"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:textColor="#0085af"
+        android:backgroundTint="@color/white"/>
+
+    <TextView
+        android:id="@+id/linktoreg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:layout_marginBottom="30dp"
+        android:fontFamily="@font/inter"
+        android:text="Нету аккаунта? Регистрация"
+        android:textColor="@color/white"
+        android:textSize="17sp" />
+</LinearLayout>
